@@ -91,3 +91,28 @@ background-position: center;
 z-index: 99;
 pointer-events: none;
 }
+
+/* icons */
+#back-button .toolbarbutton-icon {
+list-style-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" fill="%23e0def4"><path d="M560-240 320-480l240-240 56 56-184 184 184 184-56 56Z"/></svg>') !important;
+}
+
+#forward-button .toolbarbutton-icon {
+list-style-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" fill="%23e0def4"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg>') !important;
+}
+
+#reload-button .toolbarbutton-icon {
+list-style-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" fill="%23e0def4"><path d="M480-160q-134 0-227-93t-93-227q0-134 93-227t227-93q69 0 132 28.5T720-690v-110h80v240H560v-80h110q-38-51-95.5-80.5T480-720q-100 0-170 70t-70 170q0 100 70 170t170 70q78 0 138.5-44T716-400h82q-23 120-112 196T480-160Z"/></svg>') !important;
+}
+
+#home-button .toolbarbutton-icon {
+list-style-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" fill="%23e0def4"><path d="M240-200h120v-240h240v240h120v-360L480-660 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Z"/></svg>') !important;
+}
+
+#PanelUI-menu-button .toolbarbutton-icon {
+list-style-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" fill="%23e0def4"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>') !important;
+}
+
+#unified-extensions-button .toolbarbutton-icon {
+list-style-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" fill="%23e0def4"><path d="M680-80q-50 0-85-35t-35-85h-80q-17 0-28.5-11.5T440-240v-80q-50 0-85-35t-35-85q0-50 35-85t85-35v-80q0-17 11.5-28.5T480-680h80q0-50 35-85t85-35q50 0 85 35t35 85h80q17 0 28.5 11.5T920-640v80q50 0 85 35t35 85q0 50-35 85t-85 35v80q0 17-11.5 28.5T880-200h-80q0 50-35 85t-85 35Z"/></svg>') !important;
+}
