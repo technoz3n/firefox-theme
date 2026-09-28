@@ -22,6 +22,8 @@
     --tab-selected-bgcolor: var(--rose-surface) !important;
     --arrowpanel-background: var(--rose-surface) !important;
 }
+
+/* nav bar stuff */
 #nav-bar, #TabsToolbar, #PersonalToolbar {
 background-color: #191724 !important;
 }
@@ -30,23 +32,51 @@ background-color: var(--rose-base) !important;
 border-bottom: 1px solid var(--rose-overlay) !important;
 }
 
+/* url stuff */
 #urlbar-background {
 background-color: #1f1d2e !important;
 border: 1px solid #26233a !important;
 }
-
 #urlbar[focused="true"] > #urlbar-background {
 border-color: var(--rose-iris) !important;
 }
-
 #urlbar-input {
 color: #e0def4 !important;
 }
-
+.urlbarView-body-inner {
+    background-color: #1f1d2e !important;
+}
+#urlbar-results {
+background-color: #1f1d2e !important;
+}
+.urlbarView-row[selected],
+.urlbarView-row:hover {
+    background-color: #26233a !important;
+    border-radius: 6px !important;
+}
+.urlbarView-row-title {
+    color: #e0def4 !important;
+}
+.urlbarView-row-secondary,
+.urlbarView-url {
+    color: #908caa !important;
+}
+.urlbarView-td-title[strong],
+.urlbarView-row[selected] .urlbarView-row-title {
+    color: #c4a7e7 !important;
+}
+.urlbarView-action {
+    color: #ebbcba !important;
+}
+.urlbarView-type-icon {
+    fill: #9ccfd8 !important;
+}
+/* tab bg */
 .tab-background[selected="true"] {
     background-color: #26233a !important;
 }
 
+/* nav toolbox */
 #navigator-toolbox::after {
 content: "";
 position: absolute;
