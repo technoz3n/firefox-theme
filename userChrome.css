@@ -1,0 +1,53 @@
+:root {
+    --rose-base: #191724;
+    --rose-surface: #1f1d2e;
+    --rose-overlay: #26233a;
+    --rose-muted: #6e6a86;
+    --rose-subtle: #908caa;
+    --rose-text: #e0def4;
+    --rose-love: #eb6f92;
+    --rose-gold: #f6c177;
+    --rose-rose: #ebbcba;
+    --rose-pine: #31748f;
+    --rose-foam: #9ccfd8;
+    --rose-iris: #c4a7e7;
+
+    --lwt-accent-color: var(--rose-base) !important;
+    --lwt-frame: var(--rose-base) !important;
+    --toolbar-background: var(--rose-surface) !important;
+    --toolbar-field-background-color: var(--rose-overlay) !important;
+    --toolbar-field-color: var(--rose-text) !important;
+    --toolbar-field-border-color: var(--rose-muted) !important;
+    --toolbarbutton-hover-background: var(--rose-overlay) !important;
+    --tab-selected-bgcolor: var(--rose-surface) !important;
+    --arrowpanel-background: var(--rose-surface) !important;
+}
+
+#navigator-toolbox {
+background-color: var(--rose-base) !important;
+border-bottom: 1px solid var(--rose-overlay) !important;
+}
+
+#urlbar-background {
+background-color: var(--rose-overlay) !important;
+border: 1px solid var(--rose-muted) !important;
+}
+
+#urlbar[focused="true"] > #urlbar-background {
+border-color: var(--rose-iris) !important;
+}
+
+#navigator-toolbox::after {
+content: "";
+position: absolute;
+top: 2px;
+right: 148px;
+width: 38px;
+height: 38px;
+background-image: url("Niko.png");
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+z-index: 99;
+pointer-events: none;
+}
