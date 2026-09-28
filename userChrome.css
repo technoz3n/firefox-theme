@@ -22,19 +22,29 @@
     --tab-selected-bgcolor: var(--rose-surface) !important;
     --arrowpanel-background: var(--rose-surface) !important;
 }
-
+#nav-bar, #TabsToolbar, #PersonalToolbar {
+background-color: #191724 !important;
+}
 #navigator-toolbox {
 background-color: var(--rose-base) !important;
 border-bottom: 1px solid var(--rose-overlay) !important;
 }
 
 #urlbar-background {
-background-color: var(--rose-overlay) !important;
-border: 1px solid var(--rose-muted) !important;
+background-color: #1f1d2e !important;
+border: 1px solid #26233a !important;
 }
 
 #urlbar[focused="true"] > #urlbar-background {
 border-color: var(--rose-iris) !important;
+}
+
+#urlbar-input {
+color: #e0def4 !important;
+}
+
+.tab-background[selected="true"] {
+    background-color: #26233a !important;
 }
 
 #navigator-toolbox::after {
